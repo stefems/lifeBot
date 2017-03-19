@@ -1,0 +1,27 @@
+{
+  "name": "lifebot",
+  "version": "1.0.0",
+  "description": "readMe.md",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs": "0.0.1-security",
+    "rsvp": "^3.5.0",
+    "tinyreq": "^3.2.0",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefems/lifeBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefems/lifeBot/issues"
+  },
+  "homepage": "https://github.com/stefems/lifeBot#readme"
+}
