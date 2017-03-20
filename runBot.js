@@ -6,7 +6,7 @@ let fs = require('fs');
 let twit = require('twit');
 let RSVP = require('rsvp');
 
-/*
+
 //==================================================
 //Heroku Setup
 let key = process.env.consumer_key;
@@ -20,10 +20,10 @@ var Twitter = new twit({
     access_token_secret:  tokensecret,
 });
 //====================================================
-*/
+
 //Local Node Setup
-let config = require('../.configLifeBot.js');
-let Twitter = new twit(config);
+//let config = require('../.configLifeBot.js');
+//let Twitter = new twit(config);
 
 
 Twitter.get('application/rate_limit_status', handleRateLimit);
