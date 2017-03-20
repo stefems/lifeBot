@@ -28,14 +28,17 @@ let Twitter = new twit(config);
 
 Twitter.get('application/rate_limit_status', handleRateLimit);
 
-Twitter.post('statuses/update', { status: "Hello, again! I'm back!" }, function(err, data, response) {
-	if (!err) {
-	 	console.log(data.text);
-	}
-	else {
-		console.log(err);
-	}
-});
+function tweetWithText(tweetText) {
+	Twitter.post('statuses/update', { status: tweetText }, function(err, data, response) {
+		if (!err) {
+		 	console.log(data.text);
+		}
+		else {
+			console.log(err);
+		}
+	});
+}
+
 
 function handleRateLimit(err, data, response) {
   //console.log(data.resources.friends);
