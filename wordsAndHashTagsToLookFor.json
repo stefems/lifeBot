@@ -1,0 +1,19 @@
+{
+	"locationList": [
+		"denver",
+		"colorado",
+		"silverthorne",
+		"frisco",
+		"vail",
+		"breckinridge",
+		"coppermountain"
+	],
+	"activityList": [
+		"climbing",
+		"hiking",
+		"rockclimbing",
+		"mountains",
+		"skiing",
+		"bouldering"
+	]
+}
