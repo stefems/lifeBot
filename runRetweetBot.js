@@ -10,7 +10,7 @@ let RSVP = require('rsvp');
 
 //==================================================
 //Heroku Setup
-/*
+
 let key = process.env.consumer_key;
 let keysecret = process.env.consumer_secret;
 let token = process.env.access_token;
@@ -20,12 +20,12 @@ var Twitter = new twit({
     consumer_secret:      keysecret,
     access_token:         token,
     access_token_secret:  tokensecret,
-});*/
+});
 //====================================================
 
 //Local Node Setup
-let config = require('../.configLifeBot.js');
-let Twitter = new twit(config);
+//let config = require('../.configLifeBot.js');
+//let Twitter = new twit(config);
 
 /*=============
 BEGIN runRetweetBot.js
@@ -144,8 +144,8 @@ function retweet(tweetToRetweet) {
 		if (!err) {
 			console.log("-------------------\nretweet time: " + data.created_at);
 			console.log("retweet text: " + data.text);
-			console.log("favorited tweet from user: " + data.user.screen_name);
-			console.log("favorited tweet url: https://twitter.com/statuses/" + tweetToRetweet + "\n-------------------");
+			console.log("retweeted tweet from user: " + data.user.screen_name);
+			console.log("retweeted tweet url: https://twitter.com/statuses/" + tweetToRetweet + "\n-------------------");
 		}
 		else {
 			console.log("CRITICAL ERROR: retweet() failed.\n" + err.message + "\n-------------------");
