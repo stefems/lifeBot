@@ -1,3 +1,3 @@
-worker: node runRetweetBot.js
-worker: node runLikeRandomBot.js
-worker: node runLikeBot.js
+retweetingFriends: node runRetweetBot.js
+likingTweets: node runLikeRandomBot.js
+likingFriendsTweets: node runLikeBot.js
