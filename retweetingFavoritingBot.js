@@ -51,7 +51,7 @@ function beginBotActions() {
 		//adding the list to the filter
 		wordfilter.addWords(badWordsData.badWords);
 		//this line for cron
-		let botRunning = scheduler.scheduleJob('30 * * * *', runBot);
+		let botRunning = scheduler.scheduleJob('*/30 * * * *', runBot);
 		//this line for manual testing
 		//runBot();
 	}

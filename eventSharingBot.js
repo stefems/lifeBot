@@ -57,7 +57,7 @@ beginBotActions();
 
 function beginBotActions() {
 	//this line for cron
-	let botRunning = scheduler.scheduleJob('0 1 * * *', runBot);
+	let botRunning = scheduler.scheduleJob('0 * * * *', runBot);
 	//this line for manual testing
 	//runBot();
 }

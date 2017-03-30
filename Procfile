@@ -1,2 +1,2 @@
 favoritingAndRetweeting: node retweetingFavoritingBot.js
-eventSharing: eventSharingBot.js
+eventSharing: node eventSharingBot.js
