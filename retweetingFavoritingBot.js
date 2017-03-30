@@ -44,7 +44,6 @@ let logErrorLine = 	"\n***********************************\n";
 beginBotActions();
 
 function beginBotActions() {
-	console.log(startLine + "Beginning retweeting and favoriting actions!" + startLine);
 	badWordsData = loadJson("badWords.json");
 	wordsAndTagsData = loadJson("wordsAndHashTagsToLookFor.json");
 	//read in the badwords and tags to search for
@@ -63,6 +62,7 @@ function beginBotActions() {
 }
 
 function runBot() {
+	console.log(startLine + "Beginning retweeting and favoriting actions!" + startLine);
 	//check the rate limit
 	let rateCheckPromise = new RSVP.Promise(function(success, failure){
 		Twitter.get('application/rate_limit_status', function(err, data, response) {
