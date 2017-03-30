@@ -43,13 +43,5 @@
 		"fishing": ["fish",	"fishing", "flyfishing", "fishinglife", "fisherman", "gonefishing"],
 		"general": ["goodvibes", "outdoors", "adventure", "getoutside",	"liveyourpassion"],
 		"rageLife": ["ragelife", "GoOffline", "ragelifeapp", "connect",	"travel", "hostel"]
-	},
-	"EventBriteOptions": [
-		"climbing",
-		"skiing",
-		"hiking",
-		"rock-climbing",
-		"rafting",
-		"biking"
-	]
+	}
 }
