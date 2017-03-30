@@ -10,7 +10,7 @@ let RSVP = require('rsvp');
 
 //==================================================
 //Heroku Setup
-
+/*
 let key = process.env.consumer_key;
 let keysecret = process.env.consumer_secret;
 let token = process.env.access_token;
@@ -20,12 +20,12 @@ var Twitter = new twit({
     consumer_secret:      keysecret,
     access_token:         token,
     access_token_secret:  tokensecret,
-});
+});*/
 //====================================================
 
 //Local Node Setup
-//let config = require('../.configLifeBot.js');
-//let Twitter = new twit(config);
+let config = require('../.configLifeBot.js');
+let Twitter = new twit(config);
 
 /*=============
 BEGIN runRetweetBot.js
@@ -126,7 +126,6 @@ function handleTweets(err, data, response) {
 			if (max < currentPopularity && !wordfilter.blacklisted(data.statuses[i].text) ) {
 				max = currentPopularity;
 				bestTweetId = data.statuses[i].id_str;
-				bestTweetIndex = i;
 			}
 		}
 		//-------------
@@ -140,7 +139,8 @@ function handleTweets(err, data, response) {
 }
 
 function retweet(tweetToRetweet) {
-	Twitter.post('statuses/retweet/:id', { id: tweetToRetweet }, function (err, data, response) { 
+	console.log(typeof tweetToRetweet + ", " + tweetToRetweet);
+	Twitter.post('statuses/retweet/id:', {id: 844557612268093440}, function (err, data, response) { 
 		if (!err) {
 			console.log("-------------------\nretweet time: " + data.created_at);
 			console.log("retweet text: " + data.text);

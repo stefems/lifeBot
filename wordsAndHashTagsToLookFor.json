@@ -8,12 +8,48 @@
 		"breckinridge",
 		"coppermountain"
 	],
-	"activityList": [
-		"climbing",
+	"activityTypes": [
 		"hiking",
-		"rockclimbing",
-		"mountains",
+		"camping",
+		"climbing",
+		"skating",
+		"riding",
+		"music",
+		"paddling", 
 		"skiing",
-		"bouldering"
+		"surfing",
+		"farm",
+		"yoga",
+		"slacklining",
+		"biking",
+		"running",
+		"fishing"		
+	],
+	"activityHypeTags": {
+		"hiking": ["trekking", "hiking", "mountainhiking", "ilovehiking", "hikingtrail", "hikingtrails", "hikingadventures", "hike", "backpacking"],
+		"camping": ["camping", "campvibes", "camp", "camplife", "greatoutdoors", "nature"],
+		"climbing": ["climbing", "climb", "rockclimbing", "mountainclimbing", "climbinglife", "liveclimbrepeat", "climbrocks", "crag", "cragging"],
+		"skating": ["skate", "skateboarding", "skatelife", "skater", "skateordie", "skateboardingisfun"],
+		"riding": ["snowboarding", "shred", "gosnowboarding", "ride",	"powder", "anotherbestday"],
+		"music": ["music", "iheartmusic", "concert", "show", "musica", "goodmusic", "livemusic", "musiclife", "goodvibes"],
+		"paddling": ["paddle", "getonthewater", "float", "paddlelife", "paddlesleeprepeat", "letsgetwet", "paddlers",	"sup"],
+		"skiiing": ["skiing", "freeskiing",	"skiingislife",	"skilife", "alpine", "gnar", "snow", "ski", "sendit"],
+		"surfing": ["surfing", "beachlife", "gosurfing", "surf", "surfstyle", "surfer", "surfboard", "surflife", "surfsup", "surftrip"],
+		"farm": ["farm", "farming",	"farmlife", "farmersmarket", "farmer", "farmhouse", "organic", "farmfresh",	"urbanfarming",	"urbanfarm"],
+		"yoga": ["yoga", "yogaeverydamnday", "yogalove", "yogalife", "stopdropandyoga", "spirit", "wellness", "getbendy", "namaste", "getonyourmat"],
+		"slacklining": ["slack", "slacklining",	"slackline", "slacklife","slacktheworld", "trickline","highline", "steeze"],
+		"biking": ["biking", "mountainbiking",	"bikingadventures",	"mtnbiking", "mtbiking", "gorideyourbike", "bike" ,"ridebikes", "singletrack", "riding", "enduro"],
+		"running": ["running", "loverunning", "keeprunning", "runninglife", "eatsleeprun", "pacesetter", "runclub", "run"],
+		"fishing": ["fish",	"fishing", "flyfishing", "fishinglife", "fisherman", "gonefishing"],
+		"general": ["goodvibes", "outdoors", "adventure", "getoutside",	"liveyourpassion"],
+		"rageLife": ["ragelife", "GoOffline", "ragelifeapp", "connect",	"travel", "hostel"]
+	},
+	"EventBriteOptions": [
+		"climbing",
+		"skiing",
+		"hiking",
+		"rock-climbing",
+		"rafting",
+		"biking"
 	]
 }

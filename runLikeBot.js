@@ -28,7 +28,7 @@ var Twitter = new twit({
 //let Twitter = new twit(config);
 
 /*=============
-BEGIN runRetweetBot.js
+BEGIN runLikeBot.js
 ===============*/
 //id for @bottestinglol
 let id = '830885846375034880';
