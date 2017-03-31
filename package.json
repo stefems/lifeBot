@@ -7,6 +7,7 @@
     "@google-cloud/datastore": "^0.7.1",
     "cheerio": "^0.22.0",
     "fs": "0.0.1-security",
+    "node-schedule": "^1.2.1",
     "rsvp": "^3.5.0",
     "tinyreq": "^3.2.0",
     "twit": "^2.2.5",
