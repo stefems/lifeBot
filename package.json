@@ -4,6 +4,7 @@
   "description": "readMe.md",
   "main": "index.js",
   "dependencies": {
+    "@google-cloud/datastore": "^0.7.1",
     "cheerio": "^0.22.0",
     "fs": "0.0.1-security",
     "rsvp": "^3.5.0",
