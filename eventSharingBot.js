@@ -19,6 +19,7 @@ var datastore = require('@google-cloud/datastore')({
 });
 //==================================================
 //Heroku Setup
+/*
 let key = process.env.consumer_key;
 let keysecret = process.env.consumer_secret;
 let token = process.env.access_token;
@@ -28,13 +29,13 @@ var Twitter = new twit({
     consumer_secret:      keysecret,
     access_token:         token,
     access_token_secret:  tokensecret,
-});
+});*/
 //====================================================
 
 //==================================================
 //Local Node Setup
-//let config = require('../.configLifeBot.js');
-//let Twitter = new twit(config);
+let config = require('../.configLifeBot.js');
+let Twitter = new twit(config);
 
 //==================================================
 //Configuration Variables
