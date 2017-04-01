@@ -4,14 +4,14 @@
   "description": "readMe.md",
   "main": "index.js",
   "dependencies": {
-    "@google-cloud/datastore": "^0.7.1",
+    /*"@google-cloud/datastore": "^0.7.1",
     "cheerio": "^0.22.0",
     "fs": "0.0.1-security",
     "node-schedule": "^1.2.1",
     "rsvp": "^3.5.0",
     "tinyreq": "^3.2.0",
     "twit": "^2.2.5",
-    "wordfilter": "^0.2.6"
+    "wordfilter": "^0.2.6"*/
   },
   "devDependencies": {},
   "scripts": {
