@@ -1,4 +1,4 @@
-#RageLife Twitter Bot Source Code
+# RageLife Twitter Bot Source Code
 
 <u>File Descriptions:</u>
 * badWords.json contains words that are used to filter tweets from being favorited or retweeted
